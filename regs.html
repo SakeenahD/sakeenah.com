@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+ <title>Registration</title>
+</head>
+<body>
+ <!-- Navbar -->
+ <nav>
+  <h1>Sakee<span>nah</span></h1>
+  <ul class="navigation">
+   <li><a href="./home.html" class="nav-link">Home</a></li>
+   <li><a href="#about" class="nav-link">About</a></li>
+   <li><a href="./contact.html" class="nav-link">Contact</a></li>
+   <li><a href="./regs.html" class="nav-link">Register</a></li>
+   <li><a href="./reg.html" class="nav-link">Login</a></li>
+  </ul>
+ </nav>
+ <section class="register" id="Register"></section>
+<div class="reg-container">
+<div class="card">
+<div class="inner-box">
+<div class="card-back">
+  <h2>REGISTER</h2>
+  <form>
+   <input type="text" class="input-box" placeholder="Your First Name" required>
+   <input type="text" class="input-box" placeholder="Your Last Name" required>
+   <input type="text" class="input-box" placeholder="Phone Number" required>
+   <input type="email" class="input-box" placeholder="Your Email Id" required>
+   <label for="gender"> Select your gender</label>
+   <select name="gender">
+    <option value="none" selected>Gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">other</option>
+   </select>
+   <input type="country" class="input-box" placeholder="Country" required>
+   <input type="state" class="input-box" placeholder="State/Province" required>
+   <input type="password" class="input-box" placeholder="Password" required>
+   <input type="password" class="input-box" placeholder="Re-Password" required>
+   <button type="submit" class="submit-btn">Submit</button>
+   <input type="checkbox"><span>Remember me</span>
+   <button type="button" class="btn">I`ve an account</button>
+   <a href="#">Forgot Password</a>
+ </div>
+ </div>
+ </div>
+ </div>
+ <br>
+ <br>
+ <br>
+<footer>
+  <p class="copy">&copy; Copyright 2022</p>
+</footer>
+</body>
+</html>
